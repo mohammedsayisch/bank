@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(57, 37, 79, 0.5);">
+    <div class="container-fluid">
+      <h2 >Welcome {{user}}</h2>
+      <a routerLink="/transaction">Transaction History</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+      
+    </div>
+  </nav>
+<div class="row">
+    <div class="col-1" style="margin-left: 120px; margin-top: 100px; background-color: rgba(57, 87, 79, 0.5); width: 40%; height: 30%; border-radius: 25px;">
+        <form action="" >
+            <h2 >Deposite Form</h2><br>
+            <input type="text" placeholder="Enter Account Number" [(ngModel)]="acno" id="d-acno" name="d_acno" class="form-control " style="width: 60%; margin-left: 20%;"><br>
+            <input type="password" placeholder="Enter Your Password" id="d-pass" [(ngModel)]="pass" name="d_pass" class="form-control" style="width: 60%; margin-left: 20%;"><br>
+            <input type="text" placeholder="Enter Amount" class="form-control" [(ngModel)]="amount" id="d-amount" name="d_amount" style="width: 60%; margin-left: 20%;"><br>
+            <button class="btn btn-success" (click)="deposite()" type="button" style="margin-left: 40%; margin-bottom: 5%;">Deposite</button>
+
+        </form>
+    </div>
+    <div class="col-2" >
+        <form action="" >
+            <h2 style="text-align: center;">Withdraw Form</h2><br>
+            <input type="text" id="w-acno" [(ngModel)]="acno1" name="w_acno"  placeholder="Enter Account Number" class="form-control " style="width: 60%; margin-left: 20%;"><br>
+            <input type="password" id="w-pass" name="w_pass" [(ngModel)]="pass1" placeholder="Enter Your Password" class="form-control" style="width: 60%; margin-left: 20%;"><br>
+            <input type="text" id="w-amount" name="w_amount" [(ngModel)]="amount1" placeholder="Enter Amount" class="form-control" style="width: 60%; margin-left: 20%;"><br>
+            <button class="btn btn-success" (click)="withdraw()" type="button" style="margin-left: 40%; margin-bottom: 5%;">Withdraw</button>
+
+        </form>
+    </div>
+</div>

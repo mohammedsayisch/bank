@@ -1,0 +1,16 @@
+<form action="" (ngSubmit)="login()" class="login1">
+    <h2>Login</h2>
+    <div class="input-icons">
+        
+        <input  class="form-control" [(ngModel)]="acno"  type="text"  placeholder="Enter Account Number" id="acno" name="acno">
+       
+        <br><br>
+        <i class="fa-solid fa-lock" id="pas"></i>
+        <input class="form-control" type="password"  name="password" [(ngModel)]="pass" placeholder="Password" id="pass" >
+        <br><br>
+        <button type="submit"  class="btn btn-success">Login</button>
+        <br>
+        <br>
+        <p>Don't have an account ? <a href="" routerLink="register">Sign Up</a></p>
+    </div>
+  </form>

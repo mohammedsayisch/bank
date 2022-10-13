@@ -1,0 +1,27 @@
+.col-1{
+    background-color: rgba(57, 87, 79, 0.5);
+    margin-left: 120px;
+    margin-top: 100px;
+    width: 40%;
+    height: 30%;
+    border-radius: 25px;
+    border: thick solid rgb(1, 6, 95);
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.col-2{
+    background-color: rgba(57, 87, 79, 0.5);
+    margin-left: 120px;
+    margin-top: 100px;
+    width: 40%;
+    height: 30%;
+    border-radius: 25px;
+    border: thick solid rgb(1, 6, 95); 
+    
+}
+a{
+    text-decoration: none;
+    color: wite;
+}

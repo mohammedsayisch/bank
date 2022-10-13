@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    color: aliceblue;
+
+}
+.table{
+    width: 70%;
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+}
+div{
+    margin-top: 100px;
+}
+button{
+    margin-left: 490px;
+    margin-top: 50px;
+}
+#contain{
+    background-color: rgba(57, 87, 79, 0.5);
+    
+    border-radius: 20px;
+}

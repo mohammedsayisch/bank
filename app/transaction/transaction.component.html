@@ -1,0 +1,25 @@
+<div id="contain" class="container">
+    
+<h2 >Transaction History</h2>
+
+<table class="table">
+    <thead>
+      <tr>
+        
+        <th scope="col">Type</th>
+        <th scope="col">Amount</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of transactionResult">
+        
+        <td>{{i.type}}</td>
+        <td>{{i.amount}}</td>
+       
+      </tr>
+      
+    </tbody>
+  </table>
+ <button class="btn btn-success" (click)="backtoHome()">Home Page</button>
+</div>

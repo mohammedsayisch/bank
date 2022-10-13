@@ -1,0 +1,18 @@
+<form action="" (ngSubmit)="register()" class="login1">
+    <h2>Login</h2>
+    <div class="input-icons">
+        
+        <input  class="form-control" [(ngModel)]="acno"  type="text"  placeholder="Enter Account Number" id="acno" name="acno">
+       
+        <br><br>
+        <i class="fa-solid fa-lock" id="pas"></i>
+        <input class="form-control" type="text"  name="password" [(ngModel)]="uname" placeholder="Enter Username" id="pass" >
+        <br><br>
+        <input class="form-control" type="password"  name="password" [(ngModel)]="pass" placeholder="Password" id="pass" >
+
+        <button type="submit"  class="btn btn-success">Register</button>
+        <br>
+        <br>
+        
+    </div>
+  </form>
